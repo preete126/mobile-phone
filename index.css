@@ -1,0 +1,167 @@
+#phone{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bigWrapper{
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#inner{
+    width: 300px;
+    height: 530px;
+    background-color: black;
+    color: black;
+    
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+ 
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    justify-content: center;
+    border-radius: 100%;
+
+}
+#dotandbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.bar{
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    justify-content: center;
+    border-radius: 10px;
+}
+.circle{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    
+}
+
+.add{
+    background-image: url("image/wallpaper.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white !important;
+}
+
+.appimg{
+    width: 50px;
+    height: 50px;
+}
+
+.appimg img{
+    border-radius: 10px;
+}
+#innerContainer{
+    display: flex;
+    padding: 10px;
+    gap: 25px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    overflow-y: scroll;
+    height: 440px;
+
+}
+/* #innerContainer::-webkit-scrollbar-track{
+    width: 5px;
+   background-color: red;
+} */
+#innerContainer::-webkit-scrollbar{
+    width: 1px;
+   background-color: transparent;
+}
+
+#barr{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.callbtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    color: white;
+    background-color: grey;
+    border: none;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.addSpace{
+    gap: 20px !important;
+   padding: 10px 35px !important;
+}
+ .callContainer{ 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+.callContainer > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+#input{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 3px;
+    background-color: transparent;
+    font-size: 27px;
+    color: white;
+}
+#delete{
+    color: white;
+    font-size: 25px;
+    
+}
+
+.layer {
+    background-blend-mode: overlay;
+    background-color: black;
+}
+
+.changebg{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color:gray ;
+    text-align: center;
+}
+.calling {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.calling div{
+    font-size: 22px;
+    color: white;
+}
